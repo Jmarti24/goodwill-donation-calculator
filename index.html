@@ -137,7 +137,22 @@
 <script src="https://kit.fontawesome.com/ebdf8ad8f3.js"></script>
 <script src="index.js">
 </script>
-
+<script src="https://smtpjs.com/v3/smtp.js">
+</script>
+<script>
+Email.send({
+    Secure Token : "ba1d3e4d-2db5-41de-a2ef-2242fa576e52",
+    Host : "smtp.elasticemail.com",
+    Username : "jmartinez@steellotusllc.com",
+    Password : "176015c8-c2ec-4fc2-8cb2-1082f5544035",
+    To : 'jmartinez3770@gmail.com',
+    From : "jmartinez@steellotusllc.com.com",
+    Subject : "Taxable Donation Calculator",
+    Body : "jdhgajkhkjshdsqhgqdglkqjhgqks"
+}).then(
+  message => alert(message)
+);
+</script>
   
 
 </body>
